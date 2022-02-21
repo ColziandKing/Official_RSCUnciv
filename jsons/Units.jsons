@@ -3340,7 +3340,7 @@
    /* Barbarian */
   
 	{
-		"name": "Militia",
+		"name": "Bandit",
 		"unitType": "Sword",
 		"uniqueTo": "Barbarians",
 		"replaces": "Warrior",
@@ -3377,29 +3377,135 @@
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 		//Barbarian unique naval unit, weaker and slower than Trireme.
+	},
+	{
+		"name": "Marauder",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
+   {
+		"name": "Horseraider",
+		"unitType": "Mounted",
+		"replaces": "Horseman",
+		"uniqueTo": "Barbarians",
+		"movement": 5,
+		"strength": 13,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>" ],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+  {
+		"name": "Assault Log", 
+		"unitType": "Siege",
+		"uniqueTo": "Barbarians",
+		"replaces": "Catapult",
+		"movement": 3,
+		"strength": 13,
+		"cost": 75, 
+		"hurryCostModifier": 20,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["Bonus vs City 200%","No defensive terrain bonus"],
+		"promotions": ["Cover I"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Enemy Legion",
+		"unitType": "Sword",
+		"uniqueTo": "Barbarians",
+		"replaces": "Swordsman",
+		"movement": 3,
+		"strength": 18,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Pillager",
+		"unitType": "Archery",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 14,
+		"rangedStrength": 15,
+		"replaces": "Crossbowman",
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Vindicator",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Barbarians",
+		"movement": 4,
+		"strength": 22,
+		"cost": 120,
+		"requiredTech": "Metal Casting",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Metallurgy",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Pirate",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["Ignores terrain cost"],
+		"promotions": ["Amphibious"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Pirate Ship",
+		"unitType": "Aircraft Carrier", "Ranged Water",
+		"movement": 5,
+		"strength": 20,
+		"cost": 175,
+		"requiredTech": "Electronics",
+		"uniques": ["Can carry [2] [Ranged] units", "Can carry [3] [Melee] units"]
+	},
+	{
+		"name": "Rebel",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Barbarians",
+		"replaces": "Infantry",
+		"interceptRange": 1,
+		"movement": 3,
+		"strength": 60,
+		"cost": 320,
+		"requiredTech":  "Plastics",
+		"upgradesTo": "Infantry",		
+		"promotions": ["Shock II", "Drill II],
+		"attackSound": "shot"
 	}
-  marauder
-  pillager
-  ravager
-  donotadd raider,looter, shrewd trader, enchanter/enhancer, geomancer, illusioners 1&2, evoker, arch, end illager, witch/chemist, 
-  marauder
-  ninja no
-  rebel
-  irregular ex militia
-  insurgent
-  partisan/ sniper
-  brute
-  brute archer
-  infantry
-  dual wielders
-  huscarls
-  vindicator
-  raid captain
-  mountaineer
-  rampart captain
-  royal guard
-  chef
-  iceologer
-  vindicator name Johnny
-  
+
   ]
