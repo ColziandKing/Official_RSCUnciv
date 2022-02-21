@@ -14,24 +14,39 @@
 		"unitType": "Civilian",
 		"movement": 3,
 		"cost": 96,
-    "uniqueTo": "Colziand",
-    "replaces": "Settler",
+          	"uniqueTo": "Colziand",
+    		"replaces": "Settler",
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
 	{
-		"name": "Spy Scout",
+		"name": "Prophet",
+		"unitType": "Civilian",
+		"uniqueTo": "Colziand",
+		"cost": 120,
+		"uniques": ["Founds a new city","Can construct [Holy Place]","Great Person - [Culture]","Heal adjacent units for an additional 15 HP per turn"],
+		"movement": 3
+	},
+	{
+		"name": "Voyager",
+		"unitType": "Civilian",
+		"uniqueTo": "Colziand",
+		"cost": 110,
+		"uniques": ["Founds a new city", "May enter foreign tiles without open borders"],
+		"promotions": [
+		"movement": 3
+	},
+	{
+		"name": "Scout",
 		"unitType": "Scout",
-    "replaces": "Scout",
 		"movement": 3,
 		"strength": 6,
 		"cost": 15,
-    "uniqueTo": "Colziand",
-    "replaces": "Scout",
+    		"replaces": "Scout",
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
-		"promotions": ["Ignore terrain cost"],
+		"promotions": ["Ignore terrain cost", +1 Sight],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -47,20 +62,7 @@
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
-	{
-		"name": "Jaguaress",
-		"unitType": "Sword",
-		"uniqueTo": "Aztecs",
-		"replaces": "Warrior",
-		"movement": 2,
-		"strength": 8,
-		"cost": 40,
-		"obsoleteTech": "Metal Casting",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"],
-		"promotions": ["Woodsman"],
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
-	},
+	
 	{
 		"name": "Brute",
 		"unitType": "Sword",
@@ -1642,7 +1644,7 @@
 		"movement": 5
 	},
   
-  /* Banjheong-Fuojin */
+  	/* Salumi */
   
   {
 		"name": "Worker",
@@ -1699,28 +1701,16 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Jaguar",
+		"name": "Jaguaress",
 		"unitType": "Sword",
-		"uniqueTo": "Aztecs",
+		"uniqueTo": "Salumi",
 		"replaces": "Warrior",
 		"movement": 2,
-		"strength": 8,
-		"cost": 40,
+		"strength": 10,
+		"cost": 32,
 		"obsoleteTech": "Metal Casting",
 		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"],
 		"promotions": ["Woodsman"],
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Brute",
-		"unitType": "Sword",
-		"uniqueTo": "Barbarians",
-		"replaces": "Warrior",
-		"movement": 2,
-		"strength": 8,
-		"cost": 20,
-		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
@@ -3392,6 +3382,29 @@
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
+	{
+		"name": "Brute",
+		"unitType": "Sword",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 22,
+		"cost": 100,
+		"obsoleteTech": "Acoustics",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Brute Skirmisher",
+		"unitType": "Archery",
+		"uniqueTo": "Barbarians",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 3,
+		"rangedStrength": 38,
+		"cost": 145,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "arrow"
+	},
    {
 		"name": "Horseraider",
 		"unitType": "Mounted",
@@ -3421,7 +3434,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["Bonus vs City 200%","No defensive terrain bonus"],
-		"promotions": ["Cover I"],
+		"promotions": ["Cover II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -3487,6 +3500,7 @@
 	{
 		"name": "Pirate Ship",
 		"unitType": "Aircraft Carrier", "Ranged Water",
+		"uniqueTo": "Barbarians",
 		"movement": 5,
 		"strength": 20,
 		"cost": 175,
