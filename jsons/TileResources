@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Myrrh & Frankincense",
+		"resourceType": "Luxury",
+		"gold": 2,
+	},	
+		{
+		"name": "Cocoa",
+		"resourceType": "Luxury",
+		"gold": 1,
+    "food": 2,
+	},	
+			{
+		"name": "Terracotta/Clay",
+		"resourceType": "Luxury",
+		"gold": 1,
+		"culture": 2,
+	},
+  {
+		"name": "Holy Herb",
+		"resourceType": "Luxury",
+		"science": 1,
+		"gold": 2,
+    "faith": 1,
+	},
+  {
+		"name": "Glow Fruit",
+		"resourceType": "Luxury",
+		"production": 2,
+		"gold": 1,
+	},
+]	
