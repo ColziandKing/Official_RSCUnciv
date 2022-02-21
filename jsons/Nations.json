@@ -71,5 +71,29 @@
 		"innerColor": [211,180,113],
 		"cities": ["Dublin"],
 	},
-	arxemlio and magic stuff like healer
+	{
+		"name": "Auckland",
+		"adjective": ["Aucklander"],
+		"cityStateType": "Industrial",
+
+		"declaringWar": "War over peace? We shall fight!",
+		"attacked": "You'll suffer greatly when we win!",
+		"defeated": "May we live in your honor of victory over us",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,180,111],
+		"cities": ["Auckland", "Wellington"],
+	},
+	{
+		"name": "Fez",
+		"adjective": ["Fezian"],
+		"cityStateType": "Scientific",
+
+		"declaringWar": "War it must be!",
+		"attacked": "You scum!",
+		"defeated": "A defeat is a defeat.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [2,24,54],
+		"cities": ["Fez"],
+	}
+	/*arxemlio and magic stuff like healer*/
 ]
