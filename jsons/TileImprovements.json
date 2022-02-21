@@ -1,0 +1,13 @@
+[
+	{
+		"name": "Holy Place",
+		"replaces": "Landmark"
+		"culture": 3,
+		"gold": 1,
+		"food": 1,
+    "faith": 1,
+    "science": 1,
+		"production": 1,
+		"uniques": ["Gives a defensive bonus of [50]%","Great Improvement"]
+	}
+]
