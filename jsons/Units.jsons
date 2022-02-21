@@ -1,21 +1,19 @@
 [
   /* Colziand */
 	{
-		"name": "Employed Worker",
+		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 3,
-    "uniqueTo": "Colziand",
-    "replaces": "Worker",
+    		"uniqueTo": "Colziand",
 		"uniques": ["Can build [Land] improvements on tiles"],
 		"cost": 60
 	},
 	{
-		"name": "Founder",
+		"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 3,
 		"cost": 96,
           	"uniqueTo": "Colziand",
-    		"replaces": "Settler",
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
@@ -26,15 +24,6 @@
 		"uniqueTo": "Colziand",
 		"cost": 120,
 		"uniques": ["Founds a new city","Can construct [Holy Place]","Great Person - [Culture]","Heal adjacent units for an additional 15 HP per turn"],
-		"movement": 3
-	},
-	{
-		"name": "Voyager",
-		"unitType": "Civilian",
-		"uniqueTo": "Colziand",
-		"cost": 110,
-		"uniques": ["Founds a new city", "May enter foreign tiles without open borders"],
-		"promotions": [
 		"movement": 3
 	},
 	{
