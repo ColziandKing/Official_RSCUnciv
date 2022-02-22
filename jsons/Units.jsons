@@ -21,7 +21,7 @@
 	{
 		"name": "Holy Maiden",
 		"unitType": "Civilian",
-		"uniqueTo": "Salumi",
+		"uniqueTo": "Colziand",
 		"uniques": ["Bonus for units in 3 tile radius 25%",
 			"All adjacent units heal [+30] HP when healing", "[+6] HP when healing"],
 		"movement": 5
@@ -300,6 +300,7 @@
        {
 		"name": "Worker",
 		"unitType": "Civilian",
+		"uniqueTo": "Salumi",
 		"movement": 3,
 		"uniques": ["Can build [Land] improvements on tiles"],
 		"cost": 60
@@ -307,6 +308,7 @@
 	{
 		"name": "Settler",
 		"unitType": "Civilian",
+		"uniqueTo": "Salumi",
 		"movement": 3,
 		"cost": 96,
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
@@ -325,7 +327,7 @@
 	{
 		"name": "Prophetess",
 		"unitType": "Civilian",
-		"uniqueTo": "Colziand",
+		"uniqueTo": "Salumi",
 		"cost": 120,
 		"uniques": ["Founds a new city","Can construct [Holy Place]","Great Person - [Culture]","Heal adjacent units for an additional 25 HP per turn"],
 		"movement": 3
@@ -333,6 +335,7 @@
 	{
 		"name": "Scout",
 		"unitType": "Scout",
+		"uniqueTo": "Salumi",
 		"movement": 3,
 		"strength": 6,
 		"cost": 15,
@@ -344,6 +347,7 @@
 	{
 		"name": "Warrior",
 		"unitType": "Sword",
+		"uniqueTo": "Salumi",
 		"movement": 3,
 		"strength": 9,
 		"cost": 30,
@@ -372,6 +376,7 @@
 	{
 		"name": "Huntress",
 		"unitType": "Archery",
+		"uniqueTo": "Salumi",
 		"replaces": "Archer",
 		"movement": 4,
 		"strength": 10,
@@ -384,9 +389,9 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Young Sheperdess",
+		"name": "Sheperdess",
 		"unitType": "Archery",
-		"uniqueTo": "Inca",
+		"uniqueTo": "Salumi",
 		"replaces": "Archer",
 		"movement": 3,
 		"strength": 5,
@@ -622,7 +627,52 @@
 		"movement": 20,
 		"religiousStrength": 1000
 	},
+  },
   
+  
+   /* Super Unit */
+   
+   {
+		"name": "Superior-Mech III",
+		"unitType": "Armored",
+		"movement": 7,
+		"strength": 20,
+		"cost": 10000,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Uranium",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"promotions": ["Scouting I", "Scouting II", "Scouting III",
+		"attackSound": "gdrAttack"
+	},
+	{
+		"name": "Silver-Mech II",
+		"unitType": "Fighter",
+		"movement": 5,
+		"strength": 17,/*75alsodown*/
+		"rangedStrength": 17,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 7500,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"promotions": ["Shock I", "Shock II", "Shock III", "Drill I", "Drill II", "Drill III", "Charge", "Besiege", "Formation I",
+		"Formation II", "Blitz", "Woodsman", "Amphibious", "Medic", "Medic II"]
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Sly-Mech I",
+		"unitType": "Melee",
+		"movement": 5,
+		"strength": 15,
+		"cost": 5000,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"promotions": ["Accuracy I", "Accuracy II", "Accuracy III", "Barrage I", "Barrage II", 
+		"Barrage III", "Volley", "Extended Range", "Indirect Fire"]
+		"attackSound": "tankshot"
+	
   
    /* Barbarian */
   
