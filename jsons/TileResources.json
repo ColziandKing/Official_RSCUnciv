@@ -4,12 +4,6 @@
 		"resourceType": "Luxury",
 		"gold": 2,
 	},	
-		{
-		"name": "Cocoa",
-		"resourceType": "Luxury",
-		"gold": 1,
-    "food": 2,
-	},	
 			{
 		"name": "Terracotta/Clay",
 		"resourceType": "Luxury",
