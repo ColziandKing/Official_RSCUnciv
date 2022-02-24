@@ -662,7 +662,9 @@
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
-		"promotions": ["Scouting I", "Scouting II", "Scouting III",
+		"promotions": ["Scouting I", "Scouting II", "Scouting III", "Survivalism I", "Survivalism II", "Survivalism III", "Boarding Party I", "Boarding Party II",
+		"Boarding Party III", "Coastal Raider I", "Coastal Raider II", "Coastal Raider III", "Landing Party", "Supply", "Siege I", "Siege II", "Siege III", "Sortie",
+		"Air Targeting I", "Air Targeting II", "Operational Range", "Logistics", "Great Generals II", "Home Sweet Home", "Ignore terrain cost", "Quick Study"]
 		"attackSound": "gdrAttack"
 	},
 	{
@@ -677,8 +679,9 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
-		"promotions": ["Shock I", "Shock II", "Shock III", "Drill I", "Drill II", "Drill III", "Charge", "Besiege", "Formation I",
-		"Formation II", "Blitz", "Woodsman", "Amphibious", "Medic", "Medic II"]
+		"promotions": ["Shock I", "Shock II", "Shock III", "Drill I", "Drill II", "Drill III", "Charge", "Besiege", "Formation I","Formation II", "Blitz", "Woodsman",
+		"Amphibious", "Medic", "Medic II", "Evasion", "Interception I", "Interception II", "Interception III", "Dogfighting I", "Dogfighting II", "Dogfighting III",
+		"Air Repair", "Mobility I", "Mobility II", "March", "Sentry", "Ambush II", "Bombardment I", "Bombardment II", "Bombardment III", "Morale", "Great Generals I"]
 		"attackSound": "jetgun"
 	},
 	{
@@ -690,8 +693,9 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
-		"promotions": ["Accuracy I", "Accuracy II", "Accuracy III", "Barrage I", "Barrage II", 
-		"Barrage III", "Volley", "Extended Range", "Indirect Fire"]
+		"promotions": ["Accuracy I", "Accuracy II", "Accuracy III", "Barrage I", "Barrage II", "Barrage III", "Volley", "Extended Range", "Indirect Fire", "Targeting I",
+		"Targeting II", "Targeting III", "Armor Plating I", "Armor Plating II", "Armor Plating III", "Flight Deck I", "Flight Deck II", "Flight Deck III", 
+		"Anti-Armor I", "Anti-Armor II", "Mobility", "Cover I", "Cover II", "Ambush I", "Rejuvenation", "Pictish Courage", "Slinger Withdraw", "Haka War Dance"]
 		"attackSound": "tankshot"
 	
   
