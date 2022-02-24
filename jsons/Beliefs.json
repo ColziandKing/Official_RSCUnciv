@@ -31,7 +31,7 @@
     },
      {
         "name": "Secured Life",
-        "type": "Follower",
+        "type": "Founder",
         "uniques": ["[+2 Happiness] for every [6] global followers [in non-enemy foreign cities], [+40]% attacking Strength for cities"]
     },
 ] 
