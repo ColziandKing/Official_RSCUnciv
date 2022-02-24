@@ -294,6 +294,16 @@
 			"All adjacent units heal [+25] HP when healing", "[+25] HP when healing", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 25
 	},
+	"name": "Great Settler",
+		"unitType": "Civilian",
+		"uniqueTo": "Colziand",
+		"uniques": ["Can start an [8]-turn golden age",
+			"Can construct [Settlement]",
+			"Great Person - [Culture]",
+			"Unbuildable",
+			"Uncapturable"],
+		"movement": 3
+	},
   
   	/* Salumi */
   
@@ -626,6 +636,17 @@
 			"Takes your religion over the one in their birth city"],
 		"movement": 20,
 		"religiousStrength": 1000
+	},
+	  	"name": "Great Administrator",
+		"unitType": "Civilian",
+		"uniqueTo": "Salumi",
+		"uniques": ["Can start an [8]-turn golden age",
+			"Can construct [Oracle]",
+			"Can construct [Citadel]",
+			"Great Person - [Culture]",
+			"Unbuildable",
+			"Uncapturable"],
+		"movement": 3
 	},
   },
   
