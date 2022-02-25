@@ -22,7 +22,7 @@
 			    "Quantity of Resources gifted by City-States increased by [100]%", "City-State Influence degrades [100]% slower", "Resting point for Influence with City-States is increased by [100]", "Cities are razed [100] times as fast", "Influence of all other civilizations with all city-states degrades [100]% faster", "Units fight as though they were at full strength even when damaged", "Embarked units can defend themselves", "100% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment", "May convert Gems to Jewelry luxury resources",   
 			    "Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns.", "Can embark and move over Coasts and Oceans immediately", "+[100]% defensive strength for cities", "Visible to others", "May choose [3] additional belief(s) of any type when [founding] a religion", "Land units may cross [Mountain] tiles after the first [Worker] is earned", "Units ending their turn on [Mountain] tiles take [1] damage", ["Double quantity of [Incense] produced", "May convert Incense to Myrrh or Frankincense luxury resources", "[+100]% Natural religion spread [in all cities]"],
 			    
-		"cities": ["Colziane", "Cher-Hon Rishvas", "Rekle-Esieg", "Erion Faith", "Istanbul", "Paris", "Tokyo", "Aitea", "Israel", "Obrero", "DanTDM", "The Ghost & Molly McGee", "Kid Cosmic", "Wander Over Yonder"]
+		"cities": ["Colziane", "Cher-Hon Rishvas", "Rekle-Esieg", "Erion Faith", "Istanbul", "Paris", "Tokyo", "Aitea", "Israel", "Obrero", "DanTDM", "The Ghost & Molly McGee", "Kid Cosmic", "Wander Over Yonder"],
           },
 	  {
 		"name": "Salumi",
