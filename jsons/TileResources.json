@@ -18,9 +18,9 @@
     "faith": 1,
 	},
   {
-		"name": "Glow Fruit",
+		"name": "Diamond",
 		"resourceType": "Luxury",
 		"production": 2,
-		"gold": 1,
+		"gold": 6,
 	},
 ]	
