@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Myrrh & Frankincense",
+		"name": "Myrrh",
 		"resourceType": "Luxury",
 		"gold": 2,
 	},	
@@ -10,17 +10,15 @@
 		"gold": 1,
 		"culture": 2,
 	},
-  {
-		"name": "Holy Herb",
+ {
+		"name": "Myrrh",
 		"resourceType": "Luxury",
-		"science": 1,
 		"gold": 2,
-    "faith": 1,
 	},
   {
 		"name": "Diamond",
 		"resourceType": "Luxury",
-		"production": 2,
-		"gold": 6,
+		"production": 5,
+		"gold": 5,
 	},
 ]	
